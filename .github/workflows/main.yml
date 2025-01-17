@@ -8,11 +8,11 @@ jobs:
   ci:
     runs-on: ubuntu-latest
     steps:
-      -name: Auntenticar
-       run: echo "autenticando"
+      - name: Auntenticar
+        run: echo "autenticando"
 
   cd:
     runs-on: ubuntu-latest
     steps:
-      -name: Auntenticar
-       run: echo "autenticando"
+      - name: Auntenticar
+        run: echo "autenticando"
