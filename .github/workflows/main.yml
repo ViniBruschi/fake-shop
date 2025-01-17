@@ -1,0 +1,18 @@
+name: CI-CD
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      -name: Auntenticar
+       run: echo "autenticando"
+
+  cd:
+    runs-on: ubuntu-latest
+    steps:
+      -name: Auntenticar
+       run: echo "autenticando"
